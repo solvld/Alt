@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+
+  font-family: helvetica;
+}
+.header{
+  background:url(bg.jpg);
+  background-size: cover;
+  height:100vh;
+}
+.logo img{
+  height: 40px;
+  padding:34px 80px;
+  display: flex;
+}
+.logo{
+
+  height: 0px
+}
+.item{
+  color: #fff;
+  text-decoration: none;
+  margin-right: 76px;
+  font-size: 22px
+}
+.item:last-child{
+  margin-right: 0;
+}
+.item:hover{
+  color: gray;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  padding-top: 34px;
+}
+.photo img{
+  height: 350px;
+}
+.photo{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+#im1,#im2,#im3,#im4{
+  position: relative;
+}
+#im1:hover, #im2:hover, #im3:hover,
+#im4:hover{
+  top: -16px;
+}
+
+.container{
+  padding: 0px 150px;
+}
+.txt{
+  font-family: 'Press Start 2P', cursive;
+  color: #A7A5A6;
+  font-size: 17px;
+  text-align: center;
+  line-height: 1.7;
+}
+.txt:hover{
+  color:#D7D7D9;
+}
+span{
+  font-size: 18px;
+  color: #A7A5A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.site-footer {
+  min-width: 550px;
+  background: url(04.jpg);
+  color: #ffffff;
+}
+
+.site-footer .container {
+  text-align: center;
+}
+
+.site-footer p {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+}
